@@ -21,7 +21,7 @@ const passportLocal = require('./config/passport-local-strategy');
 const MongoStore = require('connect-mongo');
 
 const bodyParser = require('body-parser');
-//_______________for getting form data_____________________//
+//_______________for getting form data____________________//
 // app.use(express.urlencoded());
 // parse application/form-urlencoded, basically can only parse incoming Request Object if strings or arrays
 app.use(bodyParser.urlencoded({ extended: false }));
