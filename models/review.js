@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // making a review schema 
-const reviewSchema = new mongoose.Schema({
+const reviewSchema = new mongoose.Schema({ 
 
     review: {
         type: String,
