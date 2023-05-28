@@ -1,6 +1,6 @@
 // include User and Review Schema //
 const User = require('../models/user')
-const Review = require('../models/review')
+const Review = require('../models/review') 
 
 // create riview controller fumction //
 module.exports.createReview = async (req, res) => {
